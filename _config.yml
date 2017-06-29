@@ -27,10 +27,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Alisha Nanda"
+title: "Alisha Nanda"
+description: "Personal website of Alisha Nanda"
+keywords: "nanda, alisha, personal"
 favicon: "/img/favicon.ico"
 
 ################
