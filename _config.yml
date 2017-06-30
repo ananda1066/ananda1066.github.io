@@ -54,9 +54,9 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "To understand what recursion is, you must first understand recursion."
-  - text: "A SQL query goes into a bar, walks up to two tables, and asks, "Can I join you?""
+  - text: "A SQL query goes into a bar, walks up to two tables, and asks, &quotCan I join you?&quot"
   - text: "Unix is user friendly. It's just very particualr about who its friends are."
-  - text: "A foo walks into a bar, takes a look around, and says "Hello World!""
+  - text: "A foo walks into a bar, takes a look around, and says &quotHello World!&quot"
   - text: "ASCII stupid question, get a stupid ANSI."
   - text: "That's become one of my mantras - focus and simplicity. -Steve Jobs"
   - text: "Keep your face always toward the sunshine - and shadows will fall behind you. -Walt Whitman"
