@@ -143,7 +143,6 @@ events:
   - image: "/img/timeline/baracktocat.jpg"
     date: "April 2016: Pseudo-Snapchat Filter"
     description: "My team built this Snapchat-like program to swap faces for BearHacks 2016, using Python and OpenCV"
-    title: Github
     url: "https://github.com/ananda1066/bearhacks_cvision"
    
 #• Key challenge to overlay face with image; used image resizing 
