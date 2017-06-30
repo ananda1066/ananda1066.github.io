@@ -1,15 +1,18 @@
 <!-- Projects Start -->
 
-<section id="{{ page.section-type }}" class="card">
-  <div class="container">
-    <div class="first">first</div>
-    <div class="second">second</div>
-    <div class="third">third</div>
-    <div class="fourth">fourth</div>
-    <div class="fifth">fifth</div>
-    <div class="sixth">sixth</div>  
-    <div class="seventh">seventh</div>
-
+<section id="{{ page.section-type }}">
+    <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      {{ page.content | markdownify }}
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
 
   </div>
 </section>
