@@ -142,10 +142,10 @@ events:
     description: "Saving the neighborhood!"
   - image: "/img/timeline/baracktocat.jpg"
     date: "April 2016: Pseudo-Snapchat Filter"
-    description: "• Submission for BearHacks 2016
-• Built Snapchat-like app to swap faces
-• Key challenge to overlay face with image; used image resizing 
-• Python/OpenCV"
+    description: "• Submission for BearHacks 2016"
+    description: "• Built Snapchat-like app to swap faces"
+#• Key challenge to overlay face with image; used image resizing 
+#• Python/OpenCV"
 
 # First image of the Timeline
 
@@ -179,6 +179,8 @@ social:
     url: "https://twitter.com/alisha98765"
   - title: "github"
     url: "https://github.com/ananda1066"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/alishananda/"
   #- title: "bitcoin"
    # url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   #- title: "rss"
