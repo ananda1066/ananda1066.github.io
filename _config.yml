@@ -203,8 +203,8 @@ err-404-img: "/img/labtocat.png"
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
   Projects: 'timeline'
+  Resume: 'latest-post'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
