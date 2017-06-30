@@ -142,8 +142,10 @@ events:
     description: "Saving the neighborhood!"
   - image: "/img/timeline/baracktocat.jpg"
     date: "April 2016: Pseudo-Snapchat Filter"
-    description: "• Submission for BearHacks 2016"
-    description: "• Built Snapchat-like app to swap faces"
+    description: "My team built this Snapchat-like program to swap faces for BearHacks 2016, using Python and OpenCV"
+    title: Github
+    url: "https://github.com/ananda1066/bearhacks_cvision"
+   
 #• Key challenge to overlay face with image; used image resizing 
 #• Python/OpenCV"
 
