@@ -142,7 +142,7 @@ events:
     description: "Saving the neighborhood!"
   - image: "/img/timeline/baracktocat.jpg"
     date: "April 2016: Pseudo-Snapchat Filter"
-    text: "• Submission for BearHacks 2016
+    description: "• Submission for BearHacks 2016
 • Built Snapchat-like app to swap faces
 • Key challenge to overlay face with image; used image resizing 
 • Python/OpenCV"
