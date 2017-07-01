@@ -53,16 +53,16 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "To understand what recursion is, you must first understand recursion."
-  - text: "A SQL query goes into a bar, walks up to two tables, and asks, 'Can I join you?'"
-  - text: "Unix is user friendly. It's just very particular about who its friends are."
-  - text: "A foo walks into a bar, takes a look around, and says 'Hello World!'"
-  - text: "ASCII stupid question, get a stupid ANSI."
-  - text: "That's become one of my mantras - focus and simplicity. -Steve Jobs"
-  - text: "Keep your face always toward the sunshine and shadows will fall behind you. -Walt Whitman"
-  - text: "Try to be a rainbow in someone's cloud. -Maya Angelou"
-  - text: "Believe you can and you're halfway there. -Theodore Roosevelt"
-  - text: "If opportunity doesn't knock, build a door. -Milton Berle"
+  - text: "Motivated"
+  - text: "Team Member"
+  - text: "Passionate"
+  - text: "Inventive"
+  - text: "Leader"
+  - text: "Ambitious"
+  - text: "Hard Worker"
+  - text: "Persistent"
+  - text: "Diligent"
+  - text: "Dependable"
 
 #me-img: "/img/jetpacktocat.png"
 
