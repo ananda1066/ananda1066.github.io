@@ -53,16 +53,16 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Motivated"
-  - text: "Team Member"
-  - text: "Passionate"
-  - text: "Inventive"
-  - text: "Leader"
-  - text: "Ambitious"
-  - text: "Hard Worker"
-  - text: "Persistent"
-  - text: "Diligent"
-  - text: "Dependable"
+  - text: "Motivated."
+  - text: "Team Member."
+  - text: "Passionate."
+  - text: "Inventive."
+  - text: "Leader."
+  - text: "Ambitious."
+  - text: "Hard Worker."
+  - text: "Persistent."
+  - text: "Diligent."
+  - text: "Dependable."
 
 #me-img: "/img/jetpacktocat.png"
 
