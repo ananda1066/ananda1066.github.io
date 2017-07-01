@@ -96,7 +96,7 @@ apple-status-bar-style: "black"
 # Web app mode #
 ################
 
-web-app-mode: True
+web-app-mode: False
 
 # Icons for Web App mode
 
@@ -156,7 +156,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "alishananda@gmail.com"
+email: "ananda@ucdavis.edu"
 
 ################
 # Author Blurb #
