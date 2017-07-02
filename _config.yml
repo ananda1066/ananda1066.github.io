@@ -138,8 +138,8 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "April 2013: Stanford Girls Teaching Girls To Code Camp"
+    description: "Stanford CS undergrads/grads taught Scratch/Python/Arduino. One of my first experiences with computer science and exploring the underwhelming female involvement in the field. Inspired me to continue my CS journey through empowering talks/leaders."
   - image: "/img/timeline/baracktocat.jpg"
     date: "April 2016: Pseudo-Snapchat Filter"
     description: "My team built this Snapchat-like program to swap faces for BearHacks 2016, using Python and OpenCV"
