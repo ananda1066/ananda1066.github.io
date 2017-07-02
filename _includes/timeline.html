@@ -1,7 +1,7 @@
 
 <!-- Timeline Start -->
 <style type="text/css">
-p {
+.description {
    font-size: 14px;
 }
 </style>
@@ -31,7 +31,7 @@ p {
                 <h4>{{ event.date }}</h4>
               </div>
               <div class="timeline-body">
-                <p>{{ event.description | markdownify }}</p>
+                <p class = "description">{{ event.description | markdownify }}</p>
               </div>
             </div>
           </li>
