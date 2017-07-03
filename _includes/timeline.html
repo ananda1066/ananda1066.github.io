@@ -1,7 +1,8 @@
 <!-- Timeline Start -->
 <style>
-	---
 ---
+---
+#new_timeline{
 @import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
 
 // Variables
@@ -202,9 +203,10 @@ $timeline-color: $primary-color;
 	}
 }
 	}
+	}
 </style>
 
-<section id="{{ page.section-type }}" class="container content-section text-center">
+<section id="new_timeline" class="container content-section text-center">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       {{ page.content | markdownify }}
