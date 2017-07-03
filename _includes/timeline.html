@@ -1,9 +1,6 @@
-<!-- Timeline Start -->
 <style>
----
----
-#new_timeline{
-@import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
+	#new_timeline{
+	@import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
 
 // Variables
 $bg-body: #f9f9f9;
@@ -24,8 +21,31 @@ $base-font-color: #726f77;
 $timeline-color: $primary-color;
 
 
+// Mixins and Placeholders
+%clearfix {
+	&:after, &:before {
+		content: '';
+		display: block;
+		width: 100%;
+		clear: both;
+	}
+}
 
-.timeline>body {
+@mixin prefix($prop, $val) {
+	@each $prefix in '-webkit-', '-moz-', '-ms-', '' {
+		#{$prefix}#{$prop}: $val;
+	}
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+body {
 	background: $bg-body;
 	background-size: cover;
 	margin: 0;
@@ -36,28 +56,61 @@ $timeline-color: $primary-color;
 	color: $base-font-color;
 }
 
-.timeline>img {max-width: 100%;}
+img {max-width: 100%;}
 
-.timeline>a {
+a {
 	text-decoration: none;
 }
 
-.timeline>.container {
+.container {
 	max-width: 1100px;
 	margin: 0 auto;
 }
 
-.timeline>h1 .timeline>h2 .timeline>h3 .timeline>h4 {
+h1, h2, h3, h4 {
   font:{
 		family: $base-font-title;
 		weight: 500;
 	}
 }
 
-.timeline>.project-name {
+.project-name {
   text-align: center;
   padding: 10px 0;
 }
+
+// Header
+header {	
+	background: $secondary-color;
+	padding: 10px;
+	@include prefix(box-shadow, 0 3px 3px rgba(0,0,0,0.05)); 
+	@extend %clearfix;
+
+	.logo {
+		color: $primary-color;
+		float: left;
+		font:{
+			family: $base-font-title;
+			size: 22px;
+			weight: 500;
+		}
+		
+		> span {
+			color: lighten($primary-color, 20%);
+			font-weight: 300;
+		}
+	}
+
+	.social {
+		float: right;
+		.btn {
+			font-family: "Dosis";
+			font-size: 14px;
+			margin: 10px 5px;
+		}
+	}
+}
+
 
 // Timeline
 #timeline {
@@ -203,15 +256,20 @@ $timeline-color: $primary-color;
 	}
 }
 	}
-	}
 </style>
 
 <section id="new_timeline" class="container content-section text-center">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      {{ page.content | markdownify }}
-    </div>
-  </div>
+<header>
+		<div class="container">
+			<h1 class="logo">
+				BRUNO<span>RODRIGUES</span>
+			</h1>
+			<section class="social">
+				<a class="btn" href="https://www.github.com/itbruno">Github</a>
+				<a class="btn" href="https://www.twitter.com/_brunoweb">Twitter</a>
+			</section>
+		</div>
+	</header>
 
 	<div class="container">
     <h1 class="project-name">RESPONSIVE TIMELINE</h1>
@@ -284,44 +342,4 @@ $timeline-color: $primary-color;
 			</div>
 		</div>
 	</div>
-  <!--<div class="row">
-    <div class="col-md-10 col-md-offset-1">
-
-      {{ page.content | markdownify }}
-
-      <ul class="timeline">
-
-        {% for event in site.events %}
-          {% assign loopindex = forloop.index | modulo: 2 %}
-          {% capture class %}
-          {% if loopindex == 0 %}
-            timeline-inverted
-          {% endif %}
-          {% endcapture %}
-
-          <li class="{{ class }}">
-            <div class="timeline-image">
-              <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>{{ event.date }}</h4>
-              </div>
-              <div class="timeline-body description">
-                 {{ event.description | markdownify }}
-              </div>
-            </div>
-          </li>
-        {% endfor %}
-
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>-->
 </section>
-
-<!-- Timeline End -->
