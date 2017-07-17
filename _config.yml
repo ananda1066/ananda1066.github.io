@@ -149,7 +149,7 @@ events:
   - image: "/img/timeline/baracktocat.jpg"
     date: "Jan 2017 - April 2017"
     description: "Under Professor Ghiasi. Worked on Android app that measured oxygen/carbon dioxide levels to detect signs of lung cancer. Learned some hardware basics."
-  - image: "/img/
+  #- image: "/img/
 
 
 # First image of the Timeline
