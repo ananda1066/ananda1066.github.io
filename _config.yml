@@ -137,7 +137,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/gtgtclogo.png"
     date: "April 2013: Stanford Girls Teaching Girls To Code Camp"
     description: "Stanford CS students taught Scratch/Python/Arduino. Explored the underwhelming female involvement in the field. Inspired me through empowering talks/leaders."
   - image: "/img/timeline/baracktocat.jpg"
