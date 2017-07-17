@@ -141,12 +141,16 @@ events:
     date: "April 2013: Stanford Girls Teaching Girls To Code Camp"
     description: "Stanford CS students taught Scratch/Python/Arduino. Explored the underwhelming female involvement in the field. Inspired me through empowering talks/leaders."
   - image: "/img/timeline/baracktocat.jpg"
-    date: "April 2016: Pseudo-Snapchat Filter"
-    description: "My team built this Snapchat-like program to swap faces for BearHacks 2016, using Python and OpenCV"
-    url: "https://github.com/ananda1066/bearhacks_cvision"
-   
-#• Key challenge to overlay face with image; used image resizing 
-#• Python/OpenCV"
+    date: "Jan 2015 - Sep 2016: TileWarp"
+    description: "Startup formed around Android app by same name (see Projects). Organized meeting times, met with users, featured in school newspaper."
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "July 2015 - Aug 2015: Auto Force"
+    description: "Marketed for startup, focusing on social media. Increased Facebook likes by over 20% in three weeks."   
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "Jan 2017 - April 2017"
+    description: "Under Professor Ghiasi. Worked on Android app that measured oxygen/carbon dioxide levels to detect signs of lung cancer. Learned some hardware basics."
+  - image: "/img/
+
 
 # First image of the Timeline
 
