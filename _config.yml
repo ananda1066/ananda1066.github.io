@@ -137,9 +137,15 @@ icon-192p: "/img/web-app/icon-192p.png"
 ############
 
 events:
+  - image: "/img/timeline/microsoft.png"
+    date: "June 2018 - Present: Microsoft Explore Intern"
+    description: "In Xbox Data and Intelligence in Gaming team. Rotation program allowing students to spend four weeks in each of PM, Data Science, and Data Engineering. Focused on A/B testing in Xbox Assist app."
   - image: "/img/timeline/hackdavis.png"
     date: "May 2017 - Present: HackDavis Organizing Team"
     description: "Director of External Affairs for HackDavis. Organize transportation, network with nonprofits/clubs, outreach. Over 750 students and 20 sponsors for HackDavis 2018."
+  - image: "/img/timeline/codeu.png"
+    date: "May 2018 - August 2018: Google CodeU"
+    description: "Invite-only program for students with high potential to work at Google in the future. Worked with two other students and a current Googler as project advisor. (See IMhere! in Projects)"
   - image: "/img/timeline/dcsc.png"
     date: "May 2017 - June 2018: Davis Computer Science Club"
     description: "Elected Event Chair of DCSC. Hosts events for the club and suggests new ideas, such as female-centered events and a year-long hackathon project."
